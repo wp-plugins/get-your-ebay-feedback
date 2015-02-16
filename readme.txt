@@ -17,10 +17,12 @@ The feedback and ratings are updated automatically and saved in the database to 
 However, you can update manually your feedbacks at any time you want.
 The style of the carousel is fully customizable.
 Choose between two beautiful Effect, slide or fade
-= Shortcode = [wm_getebayfb]
+In this free version you can see the last 5 feedbacks.
+
+= Shortcode = 
+[wm_getebayfb]
 
 = Features =
-
 
 * Connect Ebay Account
 * Simple Installation and Configuration ( step by step )
@@ -50,6 +52,26 @@ Choose between two beautiful Effect, slide or fade
 3. Example ( Set your color and decide what you want show ).
 4. Example ( Set your color and decide what you want show ).
 5. Example ( Set your color and decide what you want show ).
+
+
+== Frequently Asked Questions ==
+
+= What is the shortcode to use ? =
+
+[wm_getebayfb] 
+
+= Can i insert shortcode in template ? =
+
+Yes, of course. You have to use <?php echo do_shortcode(‘[wm_getebayfb]’); ?>
+
+= How many feedbacks i can see ? =
+
+In this free version, you can see only last 5 feedbacks.
+
+= Can i decide to show only positive feedback ? =
+
+No, you can’t in this FREE version.
+
 
 == Changelog ==
 = 1.0 =
