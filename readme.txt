@@ -1,4 +1,4 @@
-=== Get Your Ebay Feedbacks - Carousel of your ebay feedbacks in your Wordpress Site ===
+=== Get Your Ebay Feedbacks ===
 Contributors: wemiura
 Tags: ebay, feedback, ebay feedback, feedback ebay, feedbacks, carousel of ebay, carousel of ebay feedbacks, reviews, ebay users reviews, carousel reviews, ebay reviews, ecommerce feedback
 Requires at least: 3.8
@@ -62,7 +62,7 @@ In this free version you can see the last 5 feedbacks.
 
 = Can i insert shortcode in template ? =
 
-Yes, of course. You have to use <?php echo do_shortcode(‘[wm_getebayfb]’); ?>
+Yes, of course. You have to use do_shortcode function.
 
 = How many feedbacks i can see ? =
 
