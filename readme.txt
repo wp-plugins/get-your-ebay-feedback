@@ -17,7 +17,7 @@ The feedback and ratings are updated automatically and saved in the database to 
 However, you can update manually your feedbacks at any time you want.
 The style of the carousel is fully customizable.
 Choose between two beautiful Effect, slide or fade
-= Shortcode = -> [wm_getebayfb]
+= Shortcode = [wm_getebayfb]
 
 = Features =
 
