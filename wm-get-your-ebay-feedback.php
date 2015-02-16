@@ -52,7 +52,7 @@ add_settings_section( 'section_general', 'General Plugin Settings', array( &$thi
 
 add_settings_field( 'general_option', 'A General Option', array( &$this, 'field_general_option' ), $this->wm_get_your_ebay_feedback_general_settings_key, 'section_general' );
 	}
-	function section_general_desc() { echo 'General Settings'; }
+	function section_general_desc() { echo 'Shortcode Settings'; }
 	function field_general_option() {
 		?>
 <input type="text" name="<?php echo $this->wm_get_your_ebay_feedback_general_settings_key; ?>[general_option]" value="<?php echo esc_attr( $this->wm_get_your_ebay_feedback_general_settings_key['general_option'] ); ?>" /><?php
@@ -62,7 +62,7 @@ add_settings_field( 'general_option', 'A General Option', array( &$this, 'field_
         
         function register_wm_get_your_ebay_feedback_advanced_settings() {
 
-$this->plugin_settings_tabs[$this->wm_get_your_ebay_feedback_advanced_settings_key] = 'General Settings';
+$this->plugin_settings_tabs[$this->wm_get_your_ebay_feedback_advanced_settings_key] = 'Shortcode Settings';
 		
 register_setting( $this->wm_get_your_ebay_feedback_advanced_settings_key, $this->wm_get_your_ebay_feedback_advanced_settings_key );
 

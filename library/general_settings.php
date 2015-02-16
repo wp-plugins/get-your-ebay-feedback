@@ -5,6 +5,7 @@
 
 <div style="margin-top: 20px;padding: 20px;border: 1px solid #DDDDDD;">
     <h2>SHORTCODE SETTINGS</h2>
+    Shortcode to use:   <strong style="color:#900;">[wm_getebayfb]</strong>
     <hr />
 <p>
     
