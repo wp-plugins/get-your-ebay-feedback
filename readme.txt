@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Capture your Ebay's Feedback and place them in your Wordpress site with an awesome carousel effect. .
+Capture your Ebay's Feedback and place them in your Wordpress site with an awesome carousel effect.
 
 == Description ==
 Get Your Ebay Feedbacks powered by WeMiura is a plugin that allows you to capture your ebay's feedback and show them on your site in a beautiful carousel effect.
@@ -17,6 +17,7 @@ The feedback and ratings are updated automatically and saved in the database to 
 However, you can update manually your feedbacks at any time you want.
 The style of the carousel is fully customizable.
 Choose between two beautiful Effect, slide or fade
+= Shortcode = -> [wm_getebayfb]
 
 = Features =
 
@@ -52,4 +53,4 @@ Choose between two beautiful Effect, slide or fade
 
 == Changelog ==
 = 1.0 =
-* Initial Version
+* First Version
