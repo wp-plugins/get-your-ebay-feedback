@@ -1,0 +1,23 @@
+.wm_get_ebay_fb_shortcode{ text-align:center; margin-top: 30px; padding: 20px; padding-bottom: 50px;}
+.wm_get_ebay_fb_shortcode button { padding:0px; background: none; float:left; position: relative;margin:5px; right:0px; left:0px;}
+.wm_get_ebay_fb_shortcode .fa { font-size: 30px; border: none;}
+.wm_get_ebay_fb_shortcode .fa-ellipsis-h { font-size: 20px; }
+.wm_get_ebay_fb_shortcode .fa-user { font-size: 15px; margin-right: 5px; position: relative; top: -1px; }
+.wm_get_ebay_fb_shortcode .fa-quote-right { margin-bottom: 20px; }
+.wm_get_ebay_fb_shortcode .commenting_text{ font-size:2rem;  margin-bottom: 10px; }
+.wm_get_ebay_fb_shortcode .comment_time { text-align: right; font-size: 0.8rem;position: relative; top: 5px;  }
+.wm_get_ebay_fb_shortcode .commenting_user { font-weight: bold;  margin-bottom: 5px; }
+.wm_get_ebay_fb_shortcode .item_title{ font-size: 0.9rem;  margin-bottom: 20px; }
+
+.wm_get_ebay_fb_widget{ text-align:center; margin-top: 30px; padding: 20px; padding-bottom: 50px;}
+.wm_get_ebay_fb_widget button { padding:0px; background: none; float:left; position: relative;margin:5px; right:0px; left:0px;}
+.wm_get_ebay_fb_widget .fa { font-size: 24px; border: none;}
+.wm_get_ebay_fb_widget .fa-ellipsis-h { font-size: 15px; }
+.wm_get_ebay_fb_widget .fa-user { font-size: 15px; margin-right: 5px; position: relative; top: -1px; }
+.wm_get_ebay_fb_widget .fa-quote-right { margin-bottom: 20px; }
+.wm_get_ebay_fb_widget .commenting_text{ font-size:1.3rem;  margin-bottom: 15px; margin-top: 5px; line-height: 1.6rem;}
+.wm_get_ebay_fb_widget .comment_time { text-align: right; font-size: 0.6rem; }
+.wm_get_ebay_fb_widget .commenting_user {margin-bottom: 5px; }
+.wm_get_ebay_fb_widget .item_title{ font-size: 0.7rem;  margin-bottom: 20px; line-height: 1rem; }
+
+
