@@ -1,17 +1,17 @@
-=== Get Your Ebay Feedbacks ===
+=== Get Your Ebay Feedbacks - WeMiura ===
 Contributors: wemiura
-Tags: ebay, feedback, ebay feedback, feedback ebay, feedbacks, carousel of ebay, carousel of ebay feedbacks, reviews, ebay users reviews, carousel reviews, ebay reviews, ecommerce feedback
+Tags: ebay, feedback, ebay feedback, feedback ebay, feedbacks, carousel of ebay, carousel of ebay feedbacks, reviews, ebay users reviews, carousel reviews, ebay reviews, ecommerce feedback, woo commerce
 Requires at least: 3.8
 Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Capture your Ebay's Feedback and place them in your Wordpress site with an awesome carousel effect.
+Capture your Ebay's Feedback and place them in your Wordpress / Woocommerce site with an awesome carousel effect.
 
 == Description ==
 Get Your Ebay Feedbacks powered by WeMiura is a plugin that allows you to capture your ebay's feedback and show them on your site in a beautiful carousel effect.
-Ideal for those who sell on ebay and decide to open their own ecommerce. The reviews on reliability of the seller are very important for your sale, you must immediately transmit confidence to your customers.
+Ideal for those who sell on ebay and decide to open their own ecommerce ( Wordpress / Woocommerce ). The reviews on reliability of the seller are very important for your sale, you must immediately transmit confidence to your customers.
 With this plugin you can immediately prove that you are a serious and reliable seller , without having to wait to start selling on your site Ecommerce.
 The feedback and ratings are updated automatically and saved in the database to optimize the load times and to avoid exceeding the limits of api calls that ebay allows.
 However, you can update manually your feedbacks at any time you want.
