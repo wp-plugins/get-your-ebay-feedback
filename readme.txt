@@ -76,3 +76,5 @@ No, you can’t in this FREE version.
 == Changelog ==
 = 1.0 =
 * First Version
+= 1.1 =
+* Bug Fixed
