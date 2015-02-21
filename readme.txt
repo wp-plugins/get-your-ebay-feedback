@@ -19,6 +19,9 @@ The style of the carousel is fully customizable.
 Choose between two beautiful Effect, slide or fade
 In this free version you can see the last 5 feedbacks.
 
+= DEMO LIVE = 
+http://www.wemiura.com/get-your-ebay-feedback/
+
 = Shortcode = 
 [wm_getebayfb]
 
@@ -36,6 +39,8 @@ In this free version you can see the last 5 feedbacks.
 * Load time optimized ( Plugin read in your database )
 * Possibility to update manually your feedbacks at any time you want
 
+= DEMO LIVE = 
+http://www.wemiura.com/get-your-ebay-feedback/
 
 
 == Installation ==
