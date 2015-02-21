@@ -3,7 +3,7 @@
 Plugin Name: Get Your Ebay FeedBack
 Plugin URI: http://www.wemiura.com/wm-get-your-feedback/
 Description: Plugin thath allows to get and retrieve your Ebay Feedbacks and show them in your wordpress page, post and widgets.
-Version: 1.0
+Version: 1.1
 Author: WeMiura
 Author URI: http://www.wemiura.com
 */
