@@ -2,7 +2,7 @@
 Contributors: wemiura
 Tags: ebay, feedback, ebay feedback, feedback ebay, feedbacks, carousel of ebay, carousel of ebay feedbacks, reviews, ebay users reviews, carousel reviews, ebay reviews, ecommerce feedback, woo commerce
 Requires at least: 3.8
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
