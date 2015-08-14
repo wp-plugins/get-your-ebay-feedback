@@ -1,8 +1,23 @@
 <?php
 
+register_activation_hook(__FILE__, 'wm_get_ebay_fb_cron');
+add_action( 'wm_get_ebay_fb_cron_execute', 'wm_get_ebay_fb_cron_execute_scheduled' );
+
+
+function wm_get_ebay_fb_cron() {
+     wp_schedule_event( current_time( 'timestamp' ), 'daily', 'wm_get_ebay_fb_cron_execute' );
+}
+
+
 // Scheduled Action Hook
-function wm_get_ebay_fb_cron_name(  ) {
+function wm_get_ebay_fb_cron_execute_scheduled(  ) {
        global $wpdb;
+
+
+    $wpdb->query("INSERT INTO `we`.`test` (`data`, `log`) VALUES ('".date('d-m-Y H:i:s',time())."', 'OK')");
+
+
+
        include(plugin_dir_path(__FILE__).'eBaySession.php');
         include(plugin_dir_path(__FILE__).'keys.php');
         
@@ -190,12 +205,8 @@ WHERE id NOT IN (
 
 }
 // Schedule Cron Job Event
-function wm_get_ebay_fb_cron() {
-	if ( ! wp_next_scheduled( 'wm_get_ebay_fb_cron_name' ) ) {
-		wp_schedule_event( current_time( 'timestamp' ), 'daily', 'wm_get_ebay_fb_cron_name' );
-	}
-}
-add_action( 'wp', 'wm_get_ebay_fb_cron' );
+
+
 
 
 

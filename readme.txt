@@ -83,3 +83,5 @@ No, you can’t in this FREE version.
 * First Version
 = 1.1 =
 * Bug Fixed
+= 1.2 =
+* Bug Fixed

@@ -140,6 +140,7 @@ $diff = abs(strtotime($user['token_exp']) - time());
 if(count($wpdb->get_results("select * from ".$wpdb->prefix . "wm_get_ebay_fb_table")) == 0){
     ?>
     <a href="#" id="first_get_feedback" class="button-primary"><i class="fa fa-bolt"></i> Start Getting FeedBack ( First Time )</a>
+    <a href="#" id="unlink_user" class="button-primary" style='background: #CB0404;border-color: #900'><i class="fa fa-times"></i> Unlink user and reset my feedbacks</a>
 <?php
 }else{ ?>
 <a href="#" id="unlink_user" class="button-primary" style='background: #CB0404;border-color: #900'><i class="fa fa-times"></i> Unlink user and reset my feedbacks</a>
