@@ -85,3 +85,5 @@ No, you can’t in this FREE version.
 * Bug Fixed
 = 1.2 =
 * Bug Fixed
+= 1.3 =
+* Cron Job Fixed

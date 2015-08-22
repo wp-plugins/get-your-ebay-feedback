@@ -14,7 +14,6 @@ function wm_get_ebay_fb_cron_execute_scheduled(  ) {
        global $wpdb;
 
 
-    $wpdb->query("INSERT INTO `we`.`test` (`data`, `log`) VALUES ('".date('d-m-Y H:i:s',time())."', 'OK')");
 
 
 
@@ -24,6 +23,9 @@ function wm_get_ebay_fb_cron_execute_scheduled(  ) {
         $user = get_option('wm_get_ebay_fb_user');        
         $verb = 'GetFeedback';      
         $siteID = $user['country'];
+
+
+
 
         
 $requestXmlBody ='<?xml version="1.0" encoding="utf-8"?>
@@ -41,6 +43,7 @@ $requestXmlBody ='<?xml version="1.0" encoding="utf-8"?>
 $session = new eBaySession($user['token'], $user['devid'], $user['appid'], $user['certid'], $serverUrl, $compatabilityLevel, $user['country'], $verb);
 
 $responseXml = $session->sendHttpRequest($requestXmlBody);
+
     if(stristr($responseXml, 'HTTP 404') || $responseXml == '')
         die('Error sending request');
     
@@ -48,7 +51,7 @@ $responseXml = $session->sendHttpRequest($requestXmlBody);
 $responseDoc = new DomDocument();
 $responseDoc->loadXML($responseXml);
     
-$errors = $responseDoc->getElementsByTagName('Errors');
+
 
 if($errors->length > 0)
     {
@@ -67,10 +70,13 @@ if($errors->length > 0)
     }
     else //no errors
     {
-      
+
         $feedbacks = $responseDoc->getElementsByTagName('FeedbackDetailArray');
 
         $wpdb->query("DELETE FROM ".$wpdb->prefix . "wm_get_ebay_fb_table");
+
+
+
 
         foreach($feedbacks as $node){
             foreach($node->childNodes as $child) {
@@ -84,7 +90,8 @@ if($errors->length > 0)
                 $OrderLineItemID = $child->getElementsByTagName('OrderLineItemID');
                 $ItemTitle = $child->getElementsByTagName('ItemTitle');
                 $ItemPrice = $child->getElementsByTagName('ItemPrice');
-                
+
+
                 
                 $wpdb->query("INSERT INTO ".$wpdb->prefix . "wm_get_ebay_fb_table VALUES (NULL, '".$CommentingUser->item(0)->nodeValue."', '".$CommentingUserScore->item(0)->nodeValue."','".base64_encode($CommentText->item(0)->nodeValue)."','".$CommentTime->item(0)->nodeValue."','','".$ItemID->item(0)->nodeValue."',".$FeedbackID->item(0)->nodeValue.",'".$TransactionID->item(0)->nodeValue."','".$OrderLineItemID->item(0)->nodeValue."','".$ItemTitle->item(0)->nodeValue."','".$ItemPrice->item(0)->nodeValue."')
 ON DUPLICATE KEY
