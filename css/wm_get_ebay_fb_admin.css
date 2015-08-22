@@ -1,0 +1,26 @@
+.wm_get_ebay_fb_shortcode{ text-align:center; margin-top: 30px; padding: 20px; padding-bottom: 28px;}
+.wm_get_ebay_fb_shortcode button { padding:0px; background: none; float:left; position: relative;margin:5px; right:0px; left:0px;top: -25px;}
+.wm_get_ebay_fb_shortcode .fa { font-size: 30px; border: none;}
+.wm_get_ebay_fb_shortcode .fa-ellipsis-h { font-size: 20px; }
+.wm_get_ebay_fb_shortcode .fa-user { font-size: 15px; margin-right: 5px; position: relative; top: -1px; }
+.wm_get_ebay_fb_shortcode .fa-quote-right { margin-bottom: 20px; }
+.wm_get_ebay_fb_shortcode .commenting_text{ font-size:2rem;  margin-bottom: 10px; }
+.wm_get_ebay_fb_shortcode .comment_time { text-align: right; font-size: 0.8rem;  }
+.wm_get_ebay_fb_shortcode .commenting_user { font-weight: bold;  margin-bottom: 5px; }
+.wm_get_ebay_fb_shortcode .item_title{ font-size: 0.9rem;  margin-bottom: 20px; }
+#wm_get_ebay_fb_div_loading { padding: 15px;margin: 20px 0px;font-size: 20px;color: #900;background: #fff;border: 1px solid #900;position: absolute; top: 50%; left: 40%; }
+
+.ebay_user{ width: 460px; padding:50px 0px;text-align: center;margin: 30px 0px;border: 5px solid #0074A2;background: #fff;}
+.ebay_user .fa-user{ width:100%;}
+.ebay_user .username{ font-size: 2rem; }
+.ebay_user .email{ font-weight: 100;}
+.ebay_user h2{ font-size: 4rem; }
+.ebay_user h3{ margin-bottom: 50px; }
+.fb_ebay_user{ font-size: 1rem; line-height: 1.5rem; }
+.fb_ebay_user label{margin: 0px 5px 0px 20px;}
+.total_fb { font-size: 20px; font-weight: 100;}
+.ebay_user .user_score{ background: #F1F5F8; float: left;padding-top: 20px;margin: 50px 0px;}
+.single_fb_ebay_user{ width: 152px; float:left;border-right: 1px solid #ccc;}
+.ebay_user .icona_score, .ebay_user .single_fb_ebay_user_score { width: 100%; float: left; text-align: center;}
+.ebay_user span.description{ width: 100%; float: left; margin-top: 20px; border-top: 1px solid #eee; padding: 5px 0px; border-bottom: 1px solid #eee;}
+.ebay_user .div_token_exp{ width: 100%; font-size: 12px; text-align: right; position: relative; top: 50px; right: 5px;}
