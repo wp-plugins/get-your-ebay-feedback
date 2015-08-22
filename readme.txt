@@ -1,4 +1,4 @@
-=== WEBAY, Get Your Ebay Feedbacks - WeMiura ===
+=== WEBAY, Get Your Ebay Feedbacks ===
 Contributors: wemiura
 Tags: ebay, feedback, ebay feedback, feedback ebay, feedbacks, carousel of ebay, carousel of ebay feedbacks, reviews, ebay users reviews, carousel reviews, ebay reviews, ecommerce feedback, woo commerce
 Requires at least: 3.8
